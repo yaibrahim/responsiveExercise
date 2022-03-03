@@ -89,7 +89,7 @@ hr{
   justify-content: center;
   align-items: center;
   background-color: rgba(3, 20, 39, 0.987);
-  height: 6vh;
+  height: 5vh;
 }
 .pageBannerInner4{
   align-items:initial;
@@ -110,7 +110,7 @@ hr{
   text-align: center;
   float: right;
   white-space: normal;
-  font-size: 10px;
+  font-size: 12px;
 }
 .buttonD {
   background-color: transparent;
