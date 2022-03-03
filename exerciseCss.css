@@ -64,7 +64,7 @@ hr{
 .pageBanner2{
   align-items: center;
   background-color: rgb(4, 47, 94);
-  height: 30vh;
+  padding: 20px;
 }
 .pageBannerInner2{
   align-items:initial;
@@ -84,6 +84,33 @@ hr{
   justify-content: center;
   display: flex;
   align-items: center;
+}
+.pageBanner4{
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(3, 20, 39, 0.987);
+  height: 6vh;
+}
+.pageBannerInner4{
+  align-items:initial;
+  padding: 25px 35px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.left-column1{
+  color: white;
+  justify-content: center;
+  float: left;
+  white-space: normal;
+  font-size: 15px;
+}
+.left-column2{
+  color: white;
+  text-align: center;
+  float: right;
+  white-space: normal;
+  font-size: 10px;
 }
 .buttonD {
   background-color: transparent;
@@ -131,9 +158,10 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: transparent;
   padding: 20px;
 }
+
 
 .col-25 {
   float: left;
@@ -157,11 +185,9 @@ input[type=submit]:hover {
 
 
 @media screen and (min-width: 480px) {
-
   .text1{
     width:100%;
   }
-
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
