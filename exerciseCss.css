@@ -1,0 +1,184 @@
+#my{
+zoom: 25%;
+}
+.startBanner{
+  width: 960px;
+  margin: 0px auto;
+}
+.text1{
+  text-align: center;
+  font-size: 90px;
+  width:100%;
+}
+.text2{
+  color: white;
+  padding-top: 70px;
+  text-align: center;
+  font-size: 90px;
+}
+.left-column{
+  color: white;
+  font-size: 45px;
+  white-space: normal;
+  margin: auto;
+  float: left;
+  width: 480px;
+  font-size: 65px;
+}
+.fcontainer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 45vh;
+  margin-bottom: 50px;
+}
+.containers{
+  background-color: white;
+  margin: 15px;
+  border : 2px solid white;
+  text-align: center;
+}
+.right-column{
+  color: white;
+  font-size: 45px;
+  white-space: normal;
+  word-wrap: break-word;
+  margin: auto;
+  float: left;
+  width: 480px;
+  font-size: 65px;
+}
+hr{
+  margin-left: 800px;
+  margin-right: 800px;
+}
+.pageBanner{
+  margin-top: 35px;
+  background-color: rgb(22, 169, 125);
+  height: 70vh;
+}
+.pageBannerInner{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.pageBanner2{
+  align-items: center;
+  background-color: rgb(4, 47, 94);
+  height: 35vh;
+}
+.pageBannerInner2{
+  align-items:initial;
+  padding: 25px 35px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.pageBanner3{
+  align-items: center;
+  background-color: rgba(3, 20, 39, 0.987);
+  height: 8vh;
+}
+.pageBannerInner3{
+  align-items:initial;
+  padding: 25px 35px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.buttonD {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 0.5cm;
+  color: white;
+  padding: 20px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 70px;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: rgb(22, 169, 125);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+  padding: 20px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 959px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+@media screen and (min-width: 480px) {
+  .startBanner{
+    width: 100%;
+  }
+  img{
+    width: 100%;
+  }
+  .text1{
+    width: 100%;
+  }
+  .fcontainer{
+    height: 100%;
+  }
+  .pageBanner{
+    width: 100%;
+  }
+}
