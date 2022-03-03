@@ -56,7 +56,7 @@ hr{
 .pageBanner{
   margin-top: 35px;
   background-color: rgb(22, 169, 125);
-  height: 70vh;
+  height: 305vh;
 }
 .pageBannerInner{
   justify-content: center;
@@ -66,7 +66,7 @@ hr{
 .pageBanner2{
   align-items: center;
   background-color: rgb(4, 47, 94);
-  height: 35vh;
+  height: 150vh;
 }
 .pageBannerInner2{
   align-items:initial;
@@ -78,7 +78,7 @@ hr{
 .pageBanner3{
   align-items: center;
   background-color: rgba(3, 20, 39, 0.987);
-  height: 8vh;
+  height: 20vh;
 }
 .pageBannerInner3{
   align-items:initial;
